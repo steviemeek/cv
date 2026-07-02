@@ -1,0 +1,150 @@
+header, footer, section, nav, article {
+    display: block;
+}
+
+/* Set some properties for the BODY
+margin auto gets you a centred web page*/
+body {
+	margin: 10px auto;
+	width: 98%;
+	color: #000000;
+	background-color: #FFFFE0;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: left;
+}
+
+h1 {
+	text-align: center;
+	color: #595959;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 64px;
+	padding-top: 20px;
+  	padding-right: 100px;
+  	padding-bottom: 10px;
+  	padding-left: 100px;
+  	margin-bottom: 0px;
+}
+
+h2 {
+	text-align: left;
+	color: black;
+}
+
+#Banner {
+	width: 100%;
+	height: 100px;
+	margin: 1px auto;
+	border: 10px solid black;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	color: black;
+	width: 100%;
+	height: 50px;
+	border: 0px solid #000000;
+	display: inline-block;
+}
+
+nav ul {
+	margin: 0px auto;
+	padding: 0px;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	text-align: center;
+	/*border-right: 0px solid #00DBF0;*/
+    width: 100%;
+    font-size: 14px;
+	padding: 0px 0px;
+	color: black;	/* normal unvisited link */
+	text-decoration: none;
+}
+
+nav li a:hover {	/* hover state */
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* --- NEW TOP MENU: MATCHES CONTACT LINKS EXACTLY --- */
+.topmenu {
+	text-align: center;
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+.topmenu a {
+	color: black;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topmenu a:hover {
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#Wrapper {
+	padding-left: 100px;
+	margin: 100px 20px 20px 100px;
+}
+
+#Article_1 {
+	width: 900px;
+	height: 500px;
+	background-color: #ADAAAA;
+}
+
+#Header_Article_1 {
+	width: 900px;
+	height: 60px;
+	background-color: #DCDCDC;
+}
+
+#Section_Article_1 {
+	width: 850px;
+	height: 400px;
+	margin: 20px;
+	background-color: #F8EBEB;
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+	margin: 50px auto;
+	border: 0px solid #000000;
+	text-align: center;
+	background-color: transparent;
+}
+.last-updated {
+  font-size: 0.85em;
+  margin: 0.5em 0;
+}
+h1 strong, h2 {
+  color: #b77b00; /* exact soft dark yellow matching your badge */
+}
+a:hover {
+  color: #b77b00 !important;
+  text-decoration: none !important;
+}
+header#top h1 {
+  color: #b77b00; /* your matching warm gold/brown */
+  font-weight: 500; /* regular weight for Steven */
+  margin: 0.2em 0;
+}
+header#top h1 strong {
+  font-weight: 800; /* keeps your chosen bold weight for Meek */
+}
