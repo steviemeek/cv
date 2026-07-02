@@ -12,16 +12,16 @@ body {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 14px;
-    text-align: left;
 }
 
 h1 {
-	text-align: center;
+	text-align: center !important;
 	color: #595959;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 64px;
-	padding-top: 20px; /* top /bottom space only, no side push */
-  	margin-bottom: 0px;
+  width: 100%;
+	padding: 20px 0px 10px 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
