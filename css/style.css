@@ -20,10 +20,7 @@ h1 {
 	color: #595959;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 64px;
-	padding-top: 20px;
-  	padding-right: 100px;
-  	padding-bottom: 10px;
-  	padding-left: 100px;
+	padding-top: 20px; /* top /bottom space only, no side push */
   	margin-bottom: 0px;
 }
 
@@ -148,3 +145,5 @@ header#top h1 {
 header#top h1 strong {
   font-weight: 800; /* keeps your chosen bold weight for Meek */
 }
+html { overflow-x: hidden;}
+img { max-width: 100%; height: auto;}
